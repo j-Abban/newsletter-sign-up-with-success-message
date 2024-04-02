@@ -29,6 +29,7 @@ font-size: 16px;
 font-family: "roboto";
 color:var(--dark-slate);
 }
+
 .container{
     background-color: var(--white);
     border-radius: 10px;
@@ -36,8 +37,32 @@ color:var(--dark-slate);
     display: flex;
     align-items: center;
 }
+
 .form-container{
     display: flex;
     flex-direction: column;
     padding: 20px;
 }
+
+.title{
+    font-size: 48px;
+}
+
+.subtitle{
+    margin: 20px 0;
+}
+
+ul{
+    padding: 10px 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li::before{
+    content: url("./assets/images/icon-list.svg");
+    width: 12px;
+    padding-right: 10px;
+}
+
