@@ -28,4 +28,10 @@ myForm.addEventListener("submit", function(event){
 
 dissmissButton.addEventListener("click",function (){
     errorText.style.display = "none";
+    email.classList.remove("error");
+    container.style.display = "flex";
+    successCard.style.display = "none";
+    submitButton.innerHTML = "Subscribe to monthly newsletter";
+    email.disabled = false;
+    submitButton.disabled = false;
 })  
