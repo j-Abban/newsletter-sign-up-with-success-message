@@ -27,5 +27,5 @@ myForm.addEventListener("submit", function(event){
 });
 
 dissmissButton.addEventListener("click",function (){
-    errorText.style.display = "nome";
-})
+    errorText.style.display = "none";
+})  
