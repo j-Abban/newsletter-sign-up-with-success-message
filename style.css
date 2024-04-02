@@ -66,3 +66,55 @@ ul li::before{
     padding-right: 10px;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.error-message {
+    color: rgb(255, 44, 44);
+    display: none;
+}
+
+.error.input {
+    outline: 1px solid rgb(255, 44, 44);
+}
+
+.input {
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    padding-left: 16px;
+    outline: 1px solid var(--grey);
+    border: none;
+}
+
+.input::placeholder {
+    font-size: 16px;
+}
+
+.submit-button {
+    padding: 10px;
+    font-size: 16px;
+    color: var(--white);
+    font-weight: 400;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(to right, var(--tomato), hsl(23, 100%, 65%));
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    background: var(--dark-slate);
+}
