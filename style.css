@@ -118,3 +118,55 @@ ul li::before{
     cursor: pointer;
     background: var(--dark-slate);
 }
+
+.submit-button :hover {
+    cursor: pointer;
+    background: var(--dark-slate);
+}
+
+.desktop-illustration-image{
+    width: 375px;
+}
+
+.mobile-illustration-image{
+  display: none;
+}
+
+.success-card {
+width: 40%;
+background-color: var(--white);
+margin: auto;
+padding: 16px;
+border-radius: 18;
+display: none;
+}
+
+.success-icon {
+    margin-bottom: 10px;
+}
+
+.card-body {
+    padding: 20px 0;
+}
+
+.email {
+    font-weight: 600;
+}
+
+.button {
+    padding: 10px;
+    font-size: 16px;
+    color: var(--white);
+    font-weight: 400;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(to right, var(--tomato), hsl(23, 100%, 65%));
+    margin-top: 10px;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: var(--dark-slate);
+}
