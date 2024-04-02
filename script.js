@@ -25,3 +25,7 @@ myForm.addEventListener("submit", function(event){
         email.classList.add("error");
     }
 });
+
+dissmissButton.addEventListener("click",function (){
+    errorText.style.display = "nome";
+})
