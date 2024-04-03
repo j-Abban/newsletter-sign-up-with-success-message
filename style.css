@@ -19,7 +19,6 @@
 
 
 body{
-width: 100vw;
 height: 100vh;
 background-color: var(--dark-slate);
 display: flex;
@@ -37,6 +36,7 @@ overflow: hidden;
     padding: 20px;
     display: flex;
     align-items: center;
+    height: 96vh;
 }
 
 .form-container{
@@ -161,7 +161,7 @@ display: none;
     font-weight: 400;
     border: none;
     border-radius: 6px;
-    background: linear-gradient(to right, var(--tomato), hsl(23, 100%, 65%));
+    background: var(--dark-slate);
     margin-top: 10px;
     transition: 0.3s;
     width: 100%;
@@ -169,7 +169,8 @@ display: none;
 
 .button:hover {
     cursor: pointer;
-    background: var(--dark-slate);
+    background: linear-gradient(to right, var(--tomato), hsl(23, 100%, 65%));
+    
 }
 
 @media only screen and (max-width: 600px) {
