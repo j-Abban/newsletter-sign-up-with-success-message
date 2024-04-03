@@ -1,28 +1,42 @@
-const regexEmail = /^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)$/;
-
-const email = document.getElementById("email")
-const submit = document.getElementById("but")
-const submit2 = document.getElementById("but2")
+const myForm = document.querySelector("#myForm")
+const dissmissButton = document.querySelector("#dissmiss-button")
+const email = document.querySelector("#email")
+const errorText = document.querySelector("#errorMessage")
+const container = document.querySelector(".container")
+const successCard = document.querySelector(".success-card")
 const emailText = document.querySelector("#emailText")
-const body = document.querySelector("body")
-function validacao(input){
-    emailText.innerHTML = email.value;
-    const formInput = input.parentElement;
-    if(input.value === "" || input.value === undefined){
-        formInput.classList.add("erro")
+const submitButton = document.querySelector(".submit-button")
+
+myForm.addEventListener("submit", function (event) {
+    event.preventDefault()
+
+    if (validateEmail(email.value)) {
+        submitButton.innerHTML = "Loading..."
+        email.disabled = true
+        submitButton.disabled = true
+
+        setTimeout(() => {
+            container.style.display = "none"
+            successCard.style.display = "block"
+            emailText.innerHTML = email.value
+        }, 3000);
+    } else {
+        errorText.style.display = "block"
+        email.classList.add('error')
     }
-    else if(!input.value.match(regexEmail)){
-        formInput.classList.add("erro");
-    }
-    else{
-        formInput.classList.remove("erro");
-        body.classList.add("active")
-    }
-}
-submit2.addEventListener('click' , function(){
-    body.classList.remove("active")
 })
-submit.addEventListener('click', (event) => {
-    event.preventDefault(); 
-    validacao(email);
-});
+
+dissmissButton.addEventListener("click", function () {
+    errorText.style.display = "none"
+    email.classList.remove("error")
+    container.style.display = "flex"
+    successCard.style.display = "none"
+    submitButton.innerHTML = "Subscribe to monthly newsletter"
+    email.disabled = false
+    submitButton.disabled = false
+})
+
+const validateEmail = (email) => {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+}
