@@ -29,34 +29,33 @@ Users should be able to:
 
 ### Built with
 
-Semantic HTML5 markup: Ensured the structure of the page is meaningful and accessible.
-CSS custom properties: Utilized variables for easier styling adjustments.
-Flexbox: Employed for layout and alignment of elements.
-CSS Grid: Used for organizing the layout of specific components.
-Mobile-first workflow: Designed and developed the project with a focus on mobile responsiveness.
-React: Used React library for building interactive components and managing state.
-Next.js: Leveraged Next.js framework for server-side rendering and routing.
-Styled Components: Implemented styled components for modular and maintainable styling.
+- Semantic HTML5 markup: Ensured the structure of the page is meaningful and accessible.
+- CSS custom properties: Utilized variables for easier styling adjustments.
+- Flexbox: Employed for layout and alignment of elements.
+- CSS Grid: Used for organizing the layout of specific components.
+- Mobile-first workflow: Designed and developed the project with a focus on mobile responsiveness.
+- React: Used React library for building interactive components and managing state.
+- Next.js: Leveraged Next.js framework for server-side rendering and routing.
+- Styled Components: Implemented styled components for modular and maintainable styling.
 
 ### What I learned
 
-During this project, I reinforced my knowledge in semantic HTML, CSS, and responsive design techniques. Additionally, I gained experience in integrating form validation and displaying success messages dynamically using JavaScript.
-orm validation: Learned how to implement client-side form validation using React.
-Dynamic rendering: Explored techniques for dynamically rendering success messages based on user input.
-Responsive design: Improved understanding of creating responsive layouts to ensure compatibility across different devices.
-Component-based architecture: Deepened understanding of component-based architecture and its benefits for code organization and reusability.
+- During this project, I reinforced my knowledge in semantic HTML, CSS, and responsive design techniques. Additionally, I gained experience in integrating form validation and displaying success messages dynamically using JavaScript.
+- Form validation: Learned how to implement client-side form validation using React.
+- Dynamic rendering: Explored techniques for dynamically rendering success messages based on user input.
+- Responsive design: Improved understanding of creating responsive layouts to ensure compatibility across different devices.
+- Component-based architecture: Deepened understanding of component-based architecture and its benefits for code organization and reusability.
 
 ### Continued development
 
 In future projects, I aim to further enhance my skills in JavaScript and React.
 
 ### Useful resources
-MDN Web Docs: Comprehensive resource for HTML, CSS, and JavaScript documentation.
-React Documentation: Official documentation for the React library, providing in-depth guides and tutorials.
-Frontend Mentor: Platform offering realistic coding challenges and supportive community for frontend developers.
-Styled Components Documentation: Official documentation for Styled Components library, containing guides and examples for usage.
-
- https://www.chatgpt.com - This helped me to figure out the errors I faced. I really liked this pattern and will use it going forward.
+- MDN Web Docs: Comprehensive resource for HTML, CSS, and JavaScript documentation.
+- React Documentation: Official documentation for the React library, providing in-depth guides and tutorials.
+- Frontend Mentor: Platform offering realistic coding challenges and supportive community for frontend developers.
+- Styled Components Documentation: Official documentation for Styled Components library, containing guides and examples for usage.
+- https://www.chatgpt.com - This helped me to figure out the errors I faced. I really liked this pattern and will use it going forward.
 
 ## Author
 - Twitter - [@kwam3_abban](https://www.twitter.com/@kwam3_abban)
