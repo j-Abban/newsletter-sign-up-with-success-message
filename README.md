@@ -11,14 +11,14 @@ Users should be able to:
 - Add their email and submit the form
 - See a success message with their email after successfully submitting the form
 - See form validation messages if:
-  - The field is left empty
-  - The email address is not formatted correctly
+- The field is left empty
+- The email address is not formatted correctly
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
 
-![Solution Screenshot](./screenshot.jpg)
+![Solution Screenshot](./assets/images/screenshotnew.png)
 
 ### Links
 
@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Built with
 
-mantic HTML5 markup: Ensured the structure of the page is meaningful and accessible.
+Semantic HTML5 markup: Ensured the structure of the page is meaningful and accessible.
 CSS custom properties: Utilized variables for easier styling adjustments.
 Flexbox: Employed for layout and alignment of elements.
 CSS Grid: Used for organizing the layout of specific components.
