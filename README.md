@@ -65,5 +65,5 @@ In future projects, I aim to further enhance my skills in JavaScript.
 
 - I would like to acknowledge the helpful resources provided by Frontend Mentor and the supportive community on various forums.
 - I would like to also appreciate my:
-- QA Mentor: Mr. Francis Asante Nsiah👨🏿
+- QA Mentor: Mr. Francis Asante Nsiah👨
 - Senior Trainer @amalitech 
