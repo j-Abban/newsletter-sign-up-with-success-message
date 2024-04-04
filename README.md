@@ -57,6 +57,8 @@ In future projects, I aim to further enhance my skills in JavaScript.
 - https://www.chatgpt.com - This helped me to figure out the errors I faced.🤣 I really liked this pattern and will use it going forward.
 
 ## Author
+- Justice Abban ☺
+- QA Engineer 😳
 - Twitter - [@kwam3_abban](https://www.twitter.com/@kwam3_abban)
 
 ## Acknowledgments
